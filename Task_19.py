@@ -18,4 +18,5 @@ lst_1 = [1, 2, 3, 4, 5]
 k = int(input("Введите колличество сдвигов: ")) % len(lst_1)
 if k == 0:
     print(lst_1)
-print(lst_1[- k:] + lst_1[:len(lst_1) - k])
+else:
+    print(lst_1[- k:] + lst_1[:len(lst_1) - k])
