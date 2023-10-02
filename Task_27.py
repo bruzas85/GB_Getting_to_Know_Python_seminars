@@ -9,11 +9,11 @@
 # shells on the sea shore I'm sure that the shells are sea
 # shore shells
 
-# str_1 = '''She sells sea shells on the sea shore The shells
-# that she sells are sea shells I'm sure.So if she sells sea
-# shells on the sea shore I'm sure that the shells are sea
-# shore shells'''.lower()
-# str_1 = set(str_1.split())
-# print(len(str_1))
+str_1 = '''She sells sea shells on the sea shore The shells
+that she sells are sea shells I'm sure.So if she sells sea
+shells on the sea shore I'm sure that the shells are sea
+shore shells'''.lower()
+str_1 = set(str_1.split())
+print(len(str_1))
 
-print(len(set(input("input text: ").lower().split())))
+# print(len(set(input("input text: ").lower().split())))
