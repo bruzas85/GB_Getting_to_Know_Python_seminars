@@ -18,7 +18,7 @@ print(set1)
 for i in range(m):
     set2.add(random.randint(1, 10))
 print(set2)
-
-print(set1 & set2)
+a = set1 & set2
+print(a)
   
 
